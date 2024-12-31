@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.navContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navList{
+    display: flex;
+    column-gap: 20px;
+}
+.navListSmall{
+    opacity: 0;
+    display: flex;
+    column-gap: 20px;
+}
+.navListBig{
+    opacity: 1;
+    display: flex;
+    column-gap: 20px;
+}
+.links{
+    display: none;
+}
+
+.bar{
+    font-size: 30px;
+    padding: 0 20px;
+}
+.icons{
+    display: flex;
+    column-gap: 20px;
+}
