@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +8,14 @@
 }
 ul, ol, li{
     list-style: none;
+    color: white;
 }
 a{
     text-decoration: none;
+    color: white;
+}
+nav{
+    background-color: #3030ff;
 }
 .container{
     max-width: 1200px;
@@ -17,6 +25,11 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 15px 0;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
 }
 .navList{
     display: flex;
@@ -35,10 +48,30 @@ a{
 .links{
     display: none;
 }
-
+.linksItem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linksItem li{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #3030ff;
+    text-align: center;
+    transition: all .3s ease;
+}
+.linksItem li:hover{
+    background-color: darkblue;
+    border-radius: 20px;
+}
 .bar{
+    background-color: darkblue;
+    color: white;
     font-size: 30px;
     padding: 0 20px;
+    border: none;
+    border-radius: 10px;
 }
 .icons{
     display: flex;
